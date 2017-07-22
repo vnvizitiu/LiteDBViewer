@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Project ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
 		<!-- Select a Product Configuration -->
 		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
@@ -32,6 +32,10 @@
 		<ProjectReference Include="..\LiteDBViewer\LiteDBViewer.csproj">
 			<Name>LiteDBViewer</Name>
 			<Project>{6A754752-6732-43CD-B316-F17961B4D525}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\LiteDBViewerVersionSelector\LiteDBViewerVersionSelector.csproj">
+			<Name>LiteDBViewerVersionSelector</Name>
+			<Project>{BD07FE19-27B9-480B-B39A-F6D640167013}</Project>
 		</ProjectReference>
 	</ItemGroup>
 </Project>
